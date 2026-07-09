@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Dataset and generated outputs
+dataset/
+images/
+eval_results/
+runs/
+
+# Model weights and Paddle checkpoints
+*.pdparams
+*.pdopt
+*.pdmodel
+*.pdiparams
+*.pdiparams.info
+
+# Logs
+*.log
+*.out
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
