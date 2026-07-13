@@ -198,34 +198,9 @@ The manuscript reports the following performance for MRS-SOLOv2 on the soybean p
 
 The phenotypic calculation results reported in the manuscript achieved R2 values of 0.9549, 0.9498, 0.9585, and 0.9742 for pod length, pod width, pod area, and seed-number-related traits, respectively.
 
-## Files Not Included
-
-The following files and folders are intentionally excluded from the GitHub repository:
-
-```text
-runs/
-dataset image files and annotations, unless separately released
-images/
-eval_results/
-*.pdparams
-*.pdopt
-*.pdmodel
-*.pdiparams
-__pycache__/
-*.pyc
-.ipynb_checkpoints/
-```
-
-Datasets and trained weights should be released separately, for example through GitHub Releases, Zenodo, Figshare, or another data repository.
-
-## Citation
-
-If this code is useful for your research, please cite the corresponding manuscript:
-
-```text
-[Authors]. Soybean pod phenotypic trait recognition and calculation using an improved instance segmentation model. [Journal/Year].
-```
-
 ## License
 
-Please add a license before public release, for example MIT, Apache-2.0, or another license approved by your institution.
+The released model weights and code are provided for academic review, manuscript verification, and non-commercial research purposes only. See the `LICENSE` file for details.
+
+If you use this model or code in academic work, please cite our paper.
+
